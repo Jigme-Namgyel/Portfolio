@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX Design Website Case Study</title>
+    <link rel="stylesheet" href="../css/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div>
+      <header class="l-header">
+        <nav class="nav bd-grid">
+          <div>
+            <img class="logo" src="../img/logo.png" alt="" />
+          </div>
+
+          <div class="nav__menu" id="nav-menu"></div>
+        </nav>
+      </header>
+    </div>
+    <br />
+
+    <div class="project-section">
+      <div class="project-image">
+        <img src="../img/shoe.png" alt="Plant App Mockup" />
+      </div>
+
+      <div class="project-details">
+        <h1>Shoe Shop</h1>
+
+        <div class="section-title">The Product</div>
+        <p>
+          Shoe shop sells shoes under two primary categories (e.g., Casual and
+          Formal footwear). The website allows users to browse these categories,
+          add shoes to their cart, and make purchases directly through the
+          platform.
+        </p>
+
+        <div class="section-title">The Problem</div>
+        <p>
+          There is currently no dedicated online platform for buying footwear,
+          making it difficult for customers to find and compare shoe
+          options—especially for casual and formal shoes. Shoppers often rely on
+          scattered social media posts or visit physical stores, which lack
+          transparency in pricing and limited variety. This creates a
+          frustrating experience for users who want convenience, clear
+          information, and options tailored to their needs.
+        </p>
+
+        <div class="section-title">The Goal</div>
+        <p>
+          Develop a more intuitive and engaging shoe shopping web application
+          that allows users to browse by category, confidently choose the right
+          shoe (size, color), and complete purchases with ease. The platform
+          should aim to reduce cart abandonment and improve user satisfaction
+          through a seamless shopping journey.
+        </p>
+
+        <div class="info-grid">
+          <div>
+            <strong>My Role:</strong><br />
+            <br />UX/UI Designer & Backend Developer
+          </div>
+          <div>
+            <strong>Responsibilities:</strong><br /><br />Research, wireframes,
+            prototyping, testing, accessibility, UX iteration <br /><br />
+          </div>
+          <div>
+            <strong>Project Duration:</strong><br /><br />03/2025 - 5/2025
+          </div>
+          <div>
+            <strong>Category:</strong><br /><br />Web Application<br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pain point -->
+    <div class="painpoint-section">
+      <h2 class="title">User Research: Pain Points</h2>
+      <br /><br /><br /><br />
+      <div class="painpoint-cards">
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-layer-group icon"></i>
+            <h3>Limited Product Variety</h3>
+          </div>
+          <ul>
+            <li>
+              Customers feel restricted by only having two categories, making it
+              harder to filter shoes by activity (e.g., casual, sports, formal)
+              or other preferences like color and size..
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-ruler-combined icon"></i>
+            <h3>Size Uncertainty</h3>
+          </div>
+          <ul>
+            <li>
+              Many users are unsure if their selected size will fit, and there’s
+              no guidance or return policy mentioned clearly.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-shield-alt icon"></i>
+            <h3>Lack of Trust Signals</h3>
+          </div>
+          <ul>
+            <li>
+              New users are hesitant to purchase due to missing product reviews,
+              return policies, or user ratings.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="title">User Persona</h2>
+    </div>
+    <!-- Persona 1: Dorji Wangchuk -->
+    <div class="persona-container">
+      <div class="persona-img">
+        <img src="../img/deepak.png" alt="Dorji Wangchuk" />
+      </div>
+      <div class="persona-details">
+        <h2>Deepak Ghaley (Shoe Enthusiast - Buyer)</h2>
+        <p><strong>Age:</strong> 21</p>
+        <p><strong>Occupation:</strong> Student</p>
+        <p><strong>Hometown:</strong> Thimphu, Bhutan</p>
+        <p>
+          <strong>Background:</strong> Deepak enjoys casual and trendy shoes for
+          daily college wear. She often shops online for convenience but is
+          cautious about online sizing and product quality.
+        </p>
+
+        <div class="persona-section-title">Pain Points:</div>
+        <ul>
+          <li>Doesn't know if the shoe will fit properly.</li>
+          <li>Wants more sorting options (by color, price, style).</li>
+          <li>Gets frustrated by long or unclear checkout steps.</li>
+        </ul>
+
+        <div class="persona-section-title">Needs:</div>
+        <ul>
+          <li>Clear size guide and shoe material details.</li>
+          <li>
+            Visual cues (like user reviews or ratings) to make confident
+            purchases.
+          </li>
+          <li>Quick add-to-cart and smooth checkout.</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Persona 2: Sonam Zangmo -->
+    <div class="persona-container">
+      <div class="persona-img">
+        <img src="../img/kezang.jpeg" alt="Sonam Zangmo" />
+      </div>
+      <div class="persona-details">
+        <h2>Kezang Dorji (Style-conscious-Buyer)</h2>
+        <p><strong>Age:</strong> 22</p>
+        <p><strong>Occupation:</strong> Student</p>
+        <p><strong>Hometown:</strong> Thimphu, Bhutan</p>
+        <p>
+          <strong>Background:</strong> Kezang needs durable, stylish shoes for
+          daily office wear. He prefers structured product categories and fast
+          checkouts due to his tight schedule.
+        </p>
+
+        <div class="persona-section-title">Pain Points:</div>
+        <ul>
+          <li>Limited formal options in current categories.</li>
+          <li>Checkout process takes too long.</li>
+          <li>No way to favorite or save products for later.</li>
+        </ul>
+
+        <div class="persona-section-title">Needs:</div>
+        <ul>
+          <li>More detailed filters (e.g., office, casual, trekking).</li>
+          <li>Option to quickly buy or save shoes.</li>
+          <li>Mobile-optimized experience for fast browsing.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Additional Image Section -->
+    <div class="new-section-box">
+      <div class="new-section">
+        <h2 class="title">User Journey</h2>
+        <div class="image-column">
+          <!-- Replace with your actual image source -->
+          <img src="../img/study1.png" alt="User Research Image 3" />
+          <!-- Replace with your actual image source -->
+          <img src="../img/study2.png" alt="User Research Image 3" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Sketches or Wireframes Section -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Paper Wireframe</h2>
+          <p class="plant-speech-bubble">
+            The sketches represent the foundational structure and layout of the
+            web application. They emphasize core components such as the
+            navigation bar, homepage content sections, product grids, and
+            interactive elements like search and filters. These early drafts
+            helped visualize how users would interact with the platform across
+            different screen sizes before moving into high-fidelity designs.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/wire3.jpeg" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Digital Wireframe Section -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Digital Wireframe</h2>
+          <p class="plant-speech-bubble">
+            The digital wireframe presents a more refined layout of the web
+            application, highlighting key interface elements such as the header,
+            navigation bar, product display sections, and user interaction
+            flows. It offers a clearer visualization of content hierarchy and
+            functionality, setting the foundation for responsive design and
+            seamless user experiences across desktop and tablet views.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/w1.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Low-fidelity prototype -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Low-Fidelity Prototype</h2>
+          <p class="plant-speech-bubble">
+            The low-fidelity prototype offers a foundational layout of the web
+            application, emphasizing the primary structure and essential user
+            interactions. It serves as an early-stage visual guide to test
+            navigation flow, page organization, and key functionalities before
+            moving into more detailed and styled designs.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/w2.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Usability Study -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Usability Study</h2>
+          <p class="plant-speech-bubble">
+            The usability study focuses on assessing the web application's
+            user-friendliness, identifying areas where users face difficulties,
+            and collecting feedback to guide design improvements. It helps
+            ensure the interface is intuitive, efficient, and aligned with user
+            expectations.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/w3.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Usability Study -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Refining The Design : Mockups</h2>
+          <p class="plant-speech-bubble">
+            Based on user feedback, several important enhancements were
+            implemented to improve the overall web app experience. For example,
+            detailed product information was added to help users better
+            understand the features of each shoe.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/m1.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <p class="plant-speech-bubble">
+            For the ordering process, a new feature was added that allows users
+            to customize the quantity of shoes they want to purchase and easily
+            remove items from the cart. These improvements address user needs
+            directly, making the app more intuitive and informative.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/m2.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- High-Fidelity Prototype Section -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">High-Fidelity Prototype</h2>
+          <p class="plant-speech-bubble">
+            The high-fidelity prototype represents the final visual design of
+            the Shoe Shop Web Application, showcasing the user interface,
+            detailed interactions, and overall user experience for "StepStyle."
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/proto2.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+    <h2 class="title">Accessbility Consideration</h2>
+    <div class="accessibility-row">
+      <div class="accessibility-card">
+        <i class="fas fa-eye" aria-hidden="true"></i>
+        <h3>High Contrast & Legibility</h3>
+        <p>
+          Ensure text elements, such as plant names, prices, and care tips, have
+          sufficient contrast against background colors and use legible,
+          scalable fonts.
+        </p>
+        <p>
+          <strong>Why:</strong> Some users may struggle to read low-contrast
+          text or decorative fonts. High contrast improves readability for
+          everyone.
+        </p>
+      </div>
+
+      <div class="accessibility-card">
+        <i class="fas fa-assistive-listening-systems" aria-hidden="true"></i>
+        <h3>Alt Text & Labels</h3>
+        <p>
+          Ensure all images, icons, and buttons include alt text or ARIA labels
+          for screen reader accessibility.
+        </p>
+        <p>
+          <strong>Why:</strong> Visually impaired users rely on screen readers
+          to understand images and UI elements.
+        </p>
+      </div>
+    </div>
+
+    <!-- Conclusion Section -->
+    <div class="new-section-box">
+      <h2 class="title">Conclusion</h2>
+      <div class="new-section conclusion">
+        <p class="speech-bubble left">
+          <span>What was learned:</span> Throughout the design process, several
+          important insights were uncovered. User research and usability testing
+          emphasized the need for intuitive navigation and a visually engaging
+          layout tailored for a Shoe Shop web application. Iterative testing and
+          feedback helped refine core features to meet user expectations—such as
+          browsing footwear by type, viewing detailed product descriptions, and
+          completing secure checkouts. Additionally, accessibility and
+          customization options like filtering by size, color, and purpose
+          (e.g., casual or sports) proved crucial in enhancing the overall
+          shopping experience.
+        </p>
+        <p class="speech-bubble right">
+          <span>Next steps:</span> Moving forward, the focus will be on
+          developing the high-fidelity prototype into a fully functional Shoe
+          Shop web application. Collaboration with developers will be key to
+          ensuring the design is accurately implemented for real-world use.
+          Continued user testing will guide future iterations and improvements.
+          Potential upcoming features include loyalty rewards, size-fit guides,
+          real-time order tracking, and user account personalization to increase
+          user engagement and satisfaction.
+        </p>
+      </div>
+    </div>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Jigme Namgyel</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <p class="footer__copy">&#169; Jigme Namgyel. All rights reserved</p>
+    </footer>
+  </body>
+</html>

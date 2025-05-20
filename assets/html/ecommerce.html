@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX Design App and Website Case Study</title>
+    <link rel="stylesheet" href="../css/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div>
+      <header class="l-header">
+        <nav class="nav bd-grid">
+          <div>
+            <img class="logo" src="../img/logo.png" alt="" />
+          </div>
+
+          <div class="nav__menu" id="nav-menu"></div>
+        </nav>
+      </header>
+    </div>
+    <br />
+
+    <div class="project-section">
+      <div class="project-image">
+        <img src="../img/web2.png" alt="Plant App Mockup" />
+      </div>
+
+      <div class="project-details">
+        <h1>GameHive</h1>
+
+        <div class="section-title">The Product</div>
+        <p>
+          GameHive is an e-commerce platform built for gamers to buy a wide
+          range of gaming products, including accessories, hardware,
+          merchandise, and collectibles. The platform aims to be a one-stop shop
+          for gaming needs across different devices (PC, console, mobile). Users
+          can explore, purchase, and receive their products with ease through a
+          smooth online experience.
+        </p>
+
+        <div class="section-title">The Problem</div>
+        <p>
+          There is currently no dedicated online platform for buying gaming
+          equipment in Bhutan and nearby regions. Gamers often rely on generic
+          e-commerce sites or scattered social media posts to find gaming
+          products, which makes it hard to verify authenticity, compatibility,
+          or availability. This fragmented experience results in difficulty
+          finding suitable gear, a lack of trust in quality, and frustration
+          over unclear pricing, delivery options, and support. Without a
+          specialized platform, gamers lack a convenient and reliable way to
+          purchase gaming accessories, hardware, and merchandise tailored to
+          their needs.
+        </p>
+
+        <div class="section-title">The Goal</div>
+        <p>
+          To improve user satisfaction and conversions, GameHive aims to
+          introduce a structured and user-friendly categorization system that
+          helps users quickly find what they’re looking for. This includes
+          adding filters (e.g., platform, type, price), enhancing product detail
+          pages, and simplifying the checkout process. The ultimate goal is to
+          reduce drop-offs, increase user trust, and provide a frictionless
+          shopping experience.
+        </p>
+
+        <div class="info-grid">
+          <div>
+            <strong>My Role:</strong><br />
+            <br />UX/UI Designer & Backend Developer
+          </div>
+          <div>
+            <strong>Responsibilities:</strong><br /><br />Research, wireframes,
+            prototyping, testing, accessibility, UX iteration <br /><br />
+          </div>
+          <div>
+            <strong>Project Duration:</strong><br /><br />03/2025 - 5/2025
+          </div>
+          <div>
+            <strong>Category:</strong><br /><br />Responsive Web Application
+            Design<br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pain point -->
+    <div class="painpoint-section">
+      <h2 class="title">User Research: Pain Points</h2>
+      <br /><br /><br /><br />
+      <div class="painpoint-cards">
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-th-list icon"></i>
+            <h3>No Clear Categories</h3>
+          </div>
+          <ul>
+            <li>
+              Users feel lost due to the lack of categorization (e.g.,
+              Accessories, Games, Merchandise). It’s hard to tell what’s
+              available and relevant to their needs.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-question-circle icon"></i>
+            <h3>Compatibility Confusion</h3>
+          </div>
+          <ul>
+            <li>
+              Shoppers struggle to know if a controller, headset, or part will
+              work with their gaming system (e.g., PS5, PC).
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-exclamation-triangle icon"></i>
+            <h3>Limited Trust and Support</h3>
+          </div>
+          <ul>
+            <li>
+              There are no user reviews, no return policy info, and no guidance
+              on delivery timelines, making first-time buyers nervous.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="title">User Persona</h2>
+    </div>
+    <!-- Persona 1: Dorji Wangchuk -->
+    <div class="persona-container">
+      <div class="persona-img">
+        <img src="../img/tshering.jpeg" alt="Tshering Dorji" />
+      </div>
+      <div class="persona-details">
+        <h2>Tshering Dorji (College Student – GCIT)</h2>
+        <p><strong>Age:</strong> 21</p>
+        <p><strong>Occupation:</strong> Student</p>
+        <p><strong>Hometown:</strong> Thimphu, Bhutan</p>
+        <p>
+          <strong>Background:</strong> Enjoys discovering new games and
+          accessories but often finds it difficult to locate compatible items
+          locally. Frequently shops online but prefers a reliable and trusted
+          gaming platform like GameHive.
+        </p>
+
+        <div class="persona-section-title">Pain Points:</div>
+        <ul>
+          <li>No sorting by price or type.</li>
+          <li>Can’t confirm if items are legit or original.</li>
+          <li>Checkout takes too long.</li>
+        </ul>
+
+        <div class="persona-section-title">Needs:</div>
+        <ul>
+          <li>Clear categorization (e.g., Gaming T-shirts, Headphones).</li>
+          <li>Product reviews and seller trust indicators.</li>
+          <li>Faster cart-to-purchase flow.</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Persona 2: Sonam Zangmo -->
+    <div class="persona-container">
+      <div class="persona-img">
+        <img src="../img/web-up1.png" alt="Jigme Tenzin" />
+      </div>
+      <div class="persona-details">
+        <h2>Jigme Tenzin</h2>
+        <p><strong>Age:</strong> 22</p>
+        <p><strong>Occupation:</strong> Student</p>
+        <p><strong>Hometown:</strong> Thimphu, Bhutan</p>
+        <p>
+          <strong>Background:</strong> Manages a small gaming accessories store
+          and aims to grow the business. Needs a platform to showcase products
+          and handle orders smoothly through GameHive.
+        </p>
+
+        <div class="persona-section-title">Pain Points:</div>
+        <ul>
+          <li>Can't find accessories by platform (e.g., “PC-only”).</li>
+          <li>
+            No advanced specs listed (e.g., mouse DPI, keyboard switch type).
+          </li>
+          <li>Can't compare products easily.</li>
+        </ul>
+
+        <div class="persona-section-title">Needs:</div>
+        <ul>
+          <li>Filters by gaming platform and product type.</li>
+          <li>Technical details and comparison features.</li>
+          <li>Express checkout with mobile optimization.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Additional Image Section -->
+    <div class="new-section-box">
+      <div class="new-section">
+        <h2 class="title">User Journey</h2>
+        <div class="image-column">
+          <!-- Replace with your actual image source -->
+          <img src="../img/u1.png" alt="User Research Image 3" />
+          <!-- Replace with your actual image source -->
+          <img src="../img/u2.png" alt="User Research Image 3" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Sketches or Wireframes Section -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Paper Wireframe</h2>
+          <p class="plant-speech-bubble">
+            The sketches represent the foundational structure and layout of the
+            responsive web application. They highlight essential components like
+            the navigation bar, homepage content sections, product grids, and
+            interactive features such as search and filters. These early drafts
+            helped visualize how users would interact with the platform
+            seamlessly across different devices and screen sizes before
+            progressing to high-fidelity designs.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/web_last.jpg" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Digital Wireframe Section -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Digital Wireframe</h2>
+          <p class="plant-speech-bubble">
+            The digital wireframe illustrates a more detailed structure of the
+            responsive web application, highlighting specific interface elements
+            and user interactions. It provides a clearer view of the layout,
+            navigation flow, and interactive components that enhance usability
+            across various devices.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/u7.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Low-fidelity prototype -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Low-Fidelity Prototype</h2>
+          <p class="plant-speech-bubble">
+            The low-fidelity prototype offers a basic outline of the responsive
+            web application’s layout and functionality, emphasizing the core
+            structure and fundamental user interactions.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/u6.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Usability Study -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Usability Study</h2>
+          <p class="plant-speech-bubble">
+            The usability study is designed to assess the web application’s ease
+            of use by identifying pain points and collecting user feedback to
+            guide future improvements.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/u8.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Usability Study -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Refining The Design : Mockups</h2>
+          <p class="plant-speech-bubble">
+            Based on the user feedback, several key improvements were made to
+            enhance the app experience. For example, detailed product
+            information was added to help users better understand the features
+            of each product.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/m3.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- High-Fidelity Prototype Section -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">High-Fidelity Prototype</h2>
+          <p class="plant-speech-bubble">
+            The high-fidelity prototype illustrates the final visual design of
+            the GameHive responsive web application, highlighting the polished
+            user interface, detailed interactions, and seamless shopping
+            experience across devices. It showcases how users can browse gaming
+            products, view compatibility details, manage their cart, and
+            complete purchases in an engaging and intuitive environment.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/m4.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+    <h2 class="title">Accessbility Consideration</h2>
+    <div class="accessibility-row">
+      <div class="accessibility-card">
+        <i class="fas fa-eye" aria-hidden="true"></i>
+        <h3>High Contrast & Legibility</h3>
+        <p>
+          Ensure text elements, such as plant names, prices, and care tips, have
+          sufficient contrast against background colors and use legible,
+          scalable fonts.
+        </p>
+        <p>
+          <strong>Why:</strong> Some users may struggle to read low-contrast
+          text or decorative fonts. High contrast improves readability for
+          everyone.
+        </p>
+      </div>
+
+      <div class="accessibility-card">
+        <i class="fas fa-assistive-listening-systems" aria-hidden="true"></i>
+        <h3>Alt Text & Labels</h3>
+        <p>
+          Ensure all images, icons, and buttons include alt text or ARIA labels
+          for screen reader accessibility.
+        </p>
+        <p>
+          <strong>Why:</strong> Visually impaired users rely on screen readers
+          to understand images and UI elements.
+        </p>
+      </div>
+    </div>
+
+    <!-- Conclusion Section -->
+    <div class="new-section-box">
+      <h2 class="title">Conclusion</h2>
+      <div class="new-section conclusion">
+        <p class="speech-bubble left">
+          <span>What was learned:</span> Throughout the design and research
+          process of the GameHive web application, valuable insights emerged
+          about gamer behaviors and preferences. Usability studies and
+          participant feedback emphasized the importance of clear platform-based
+          filters (PC, PS5, Xbox), intuitive navigation, and compatibility
+          guidance. Users appreciated the sleek interface and customization
+          features but also highlighted areas for improvement, such as better
+          visibility for product filters and enhanced order tracking. Staff
+          insights further reinforced the need for streamlined backend tools to
+          manage orders and prioritize deliveries, especially during peak hours.
+          These findings helped refine the user experience for both shoppers and
+          store administrators.
+        </p>
+        <p class="speech-bubble right">
+          <span>Next steps:</span> Moving forward, the focus will shift to
+          transforming the high-fidelity prototype into a fully functional,
+          responsive web platform. This phase will involve collaboration with
+          developers to implement all design features, ensure mobile and desktop
+          optimization, and integrate backend order management tools. Continuous
+          user testing will guide feature enhancements, including compatibility
+          guides, loyalty programs, delivery scheduling tools, and real-time
+          notifications. The goal is to deliver a seamless shopping experience
+          that caters to all types of gamers while supporting staff with
+          efficient management tools.
+        </p>
+      </div>
+    </div>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Jigme Namgyel</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <p class="footer__copy">&#169; Jigme Namgyel. All rights reserved</p>
+    </footer>
+  </body>
+</html>

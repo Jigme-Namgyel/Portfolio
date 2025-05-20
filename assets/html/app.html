@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX Design App Case Study</title>
+    <link rel="stylesheet" href="../css/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div>
+      <header class="l-header">
+        <nav class="nav bd-grid">
+          <div>
+            <img class="logo" src="../img/logo.png" alt="" />
+          </div>
+
+          <div class="nav__menu" id="nav-menu"></div>
+        </nav>
+      </header>
+    </div>
+    <br />
+
+    <div class="project-section">
+      <div class="project-image">
+        <img src="../img/mobile.png" alt="Plant App Mockup" />
+      </div>
+
+      <div class="project-details">
+        <h1>Plant Shop App</h1>
+
+        <div class="section-title">The Product</div>
+        <p>
+          The plant-selling platform is designed to help local plant sellers
+          showcase their products online while providing customers with an easy
+          way to browse, order, and receive plants. The app aims to bridge the
+          gap between plant enthusiasts and reliable local sellers by ensuring
+          seamless transactions and providing essential plant care information.
+        </p>
+
+        <div class="section-title">The Problem</div>
+        <p>
+          Currently, plant buyers face challenges in finding healthy and
+          affordable plants from reliable sources. Many potential customers lack
+          knowledge about plant care, and certain plant varieties have limited
+          local availability. On the seller’s side, showcasing products
+          effectively and managing orders efficiently can be difficult without a
+          structured platform.
+        </p>
+
+        <div class="section-title">The Goal</div>
+        <p>
+          Develop a user-friendly mobile app that allows plant sellers to
+          display their products attractively while enabling customers to place
+          orders with ease. The app should support various order fulfillment
+          options, including home delivery and self-pickup, and provide
+          essential plant care tips to buyers.
+        </p>
+
+        <div class="info-grid">
+          <div>
+            <strong>My Role:</strong><br />
+            <br />UX/UI Designer & Backend Developer
+          </div>
+          <div>
+            <strong>Responsibilities:</strong><br /><br />Research, wireframes,
+            prototyping, testing, accessibility, UX iteration <br /><br />
+          </div>
+          <div>
+            <strong>Project Duration:</strong><br /><br />03/2025 - 5/2025
+          </div>
+          <div>
+            <strong>Category:</strong><br /><br />Mobile App Design<br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pain point -->
+    <div class="painpoint-section">
+      <h2 class="title">User Research: Pain Points</h2>
+      <br /><br /><br /><br />
+      <div class="painpoint-cards">
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-clock icon"></i>
+            <h3>Time & Availability</h3>
+          </div>
+          <ul>
+            <li>Customers struggle to find specific plants locally.</li>
+            <li>
+              Limited information on availability and pricing makes purchasing
+              inconvenient.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-shopping-cart icon"></i>
+            <h3>Order Process</h3>
+          </div>
+          <ul>
+            <li>
+              Buyers find it difficult to place and track orders from local
+              sellers.
+            </li>
+            <li>
+              Unclear delivery options create uncertainty about receiving
+              orders.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-seedling icon"></i>
+            <h3>Care & Maintenance</h3>
+          </div>
+          <ul>
+            <li>Customers may not have enough knowledge about plant care.</li>
+            <li>
+              Sellers receive frequent inquiries about maintenance, increasing
+              their workload.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="title">User Persona</h2>
+    </div>
+    <!-- Persona 1: Dorji Wangchuk -->
+    <div class="persona-container">
+      <div class="persona-img">
+        <img src="../img/Chimi.png" alt="Dorji Wangchuk" />
+      </div>
+      <div class="persona-details">
+        <h2>Chimi Rinzin (Plant Enthusiast - Buyer)</h2>
+        <p><strong>Age:</strong> 21</p>
+        <p><strong>Occupation:</strong> Student</p>
+        <p><strong>Hometown:</strong> Thimphu, Bhutan</p>
+        <p>
+          <strong>Background:</strong> Loves decorating his home with plants but
+          struggles to find the right ones locally. Often purchases plants
+          online but prefers a trusted seller.
+        </p>
+
+        <div class="persona-section-title">Pain Points:</div>
+        <ul>
+          <li>Struggles to find certain plant varieties nearby.</li>
+          <li>Lacks knowledge of plant care.</li>
+          <li>Needs a reliable way to purchase healthy plants.</li>
+        </ul>
+
+        <div class="persona-section-title">Needs:</div>
+        <ul>
+          <li>A simple platform to browse and purchase plants.</li>
+          <li>Detailed care instructions.</li>
+          <li>Multiple payment and delivery options.</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Persona 2: Sonam Zangmo -->
+    <div class="persona-container">
+      <div class="persona-img">
+        <img src="../img/web-up1.png" alt="Sonam Zangmo" />
+      </div>
+      <div class="persona-details">
+        <h2>Jigme Tenzin (Plant Seller)</h2>
+        <p><strong>Age:</strong> 22</p>
+        <p><strong>Occupation:</strong> Student</p>
+        <p><strong>Hometown:</strong> Thimphu, Bhutan</p>
+        <p>
+          <strong>Background:</strong> Runs a small plant nursery and wants to
+          expand her business. Needs a way to showcase her plants and manage
+          orders efficiently.
+        </p>
+
+        <div class="persona-section-title">Pain Points:</div>
+        <ul>
+          <li>Struggles to reach potential customers.</li>
+          <li>Lacks an organized ordering system.</li>
+          <li>Spends too much time answering plant care queries.</li>
+        </ul>
+
+        <div class="persona-section-title">Needs:</div>
+        <ul>
+          <li>A platform to showcase her plants attractively.</li>
+          <li>A simple and structured ordering system.</li>
+          <li>Automated care instructions for each plant listing.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Additional Image Section -->
+    <div class="new-section-box">
+      <div class="new-section">
+        <h2 class="title">User Journey</h2>
+        <div class="image-column">
+          <!-- Replace with your actual image source -->
+          <img src="../img/user1.png" alt="User Research Image 3" />
+          <!-- Replace with your actual image source -->
+          <img src="../img/user2.png" alt="User Research Image 3" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Sketches or Wireframes Section -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Paper Wireframe</h2>
+          <p class="plant-speech-bubble">
+            The sketches outline the initial ideas and structural
+            layout of the app, focusing on key elements and basic navigation
+            flows.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/app-pwireframe.jpg" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Digital Wireframe Section -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Digital Wireframe</h2>
+          <p class="plant-speech-bubble">
+            The digital wireframe represents a more detailed structure of the
+            app, showcasing specific elements and user interactions.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/wire1.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Low-fidelity prototype -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Low-Fidelity Prototype</h2>
+          <p class="plant-speech-bubble">
+            The low-fidelity prototype provides an initial outline of the app’s
+            layout and functionality, focusing on the core structure and basic
+            interactions.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/wire2.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Usability Study -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Usability Study</h2>
+          <p class="plant-speech-bubble">
+            The usability study aims to evaluate the app's ease of use,
+            identifying pain points and gathering user feedback for
+            improvements.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/userStudy.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Usability Study -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">Refining The Design : Mockups</h2>
+          <p class="plant-speech-bubble">
+            Based on the user feedback, several key improvements were made to
+            enhance the app experience. For Ease of Use, an intuitive search bar
+            and advanced filter options (by category, price, and size) were
+            added to make plant discovery smoother.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/mock1.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <p class="plant-speech-bubble">
+            For Plant Care, a new section with useful tips was introduced, along
+            with simple instruction to help users quickly understand plant care
+            tips. These enhancements directly respond to user needs and make the
+            overall app more user-friendly and informative.
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/mock2.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+
+    <!-- High-Fidelity Prototype Section -->
+    <div class="plant-wireframe-section">
+      <div class="plant-wireframe-content">
+        <div class="plant-text-box">
+          <h2 class="title">High-Fidelity Prototype</h2>
+          <p class="plant-speech-bubble">
+            The high-fidelity prototype represents the final visual design of
+            the Plant Shop Mobile App, showcasing the user interface, detailed
+            interactions, and overall user experience for "Green Haven."
+          </p>
+        </div>
+        <div class="plant-img-box">
+          <img src="../img/proto.png" alt="Sketches or Wireframes" />
+        </div>
+      </div>
+    </div>
+    <h2 class="title">Accessbility Consideration</h2>
+    <div class="accessibility-row">
+      <div class="accessibility-card">
+        <i class="fas fa-eye" aria-hidden="true"></i>
+        <h3>High Contrast & Legibility</h3>
+        <p>
+          Ensure text elements, such as plant names, prices, and care tips, have
+          sufficient contrast against background colors and use legible,
+          scalable fonts.
+        </p>
+        <p>
+          <strong>Why:</strong> Some users may struggle to read low-contrast
+          text or decorative fonts. High contrast improves readability for
+          everyone.
+        </p>
+      </div>
+
+      <div class="accessibility-card">
+        <i class="fas fa-assistive-listening-systems" aria-hidden="true"></i>
+        <h3>Alt Text & Labels</h3>
+        <p>
+          Ensure all images, icons, and buttons include alt text or ARIA labels
+          for screen reader accessibility.
+        </p>
+        <p>
+          <strong>Why:</strong> Visually impaired users rely on screen readers
+          to understand images and UI elements.
+        </p>
+      </div>
+    </div>
+
+    <!-- Conclusion Section -->
+    <div class="new-section-box">
+      <h2 class="title">Conclusion</h2>
+      <div class="new-section conclusion">
+        <p class="speech-bubble left">
+          <span>What was learned:</span> During the design process, many
+          valuable insights emerged. Research and usability studies highlighted
+          the necessity of creating an intuitive navigation system and an
+          attractive visual design for the Plant Shop app. Continuous testing
+          and user feedback played a vital role in enhancing the app’s features,
+          making sure they met user expectations for exploring plants, accessing
+          care tips, and completing purchases. Moreover, prioritizing
+          accessibility and incorporating customization options, like
+          personalized plant recommendations, proved essential in improving
+          overall user satisfaction.
+        </p>
+        <p class="speech-bubble right">
+          <span>Next steps:</span> Looking ahead, the priority will be to
+          transform the high-fidelity prototype into a fully operational Plant
+          Shop mobile app. This will require close teamwork with developers to
+          ensure the design is effectively brought to life in a real-world
+          setting. Ongoing user testing will be carried out to collect feedback
+          and guide continuous improvements. Future updates might include
+          features such as loyalty programs, personalized plant care
+          notifications, and enhanced order tracking to further improve user
+          experience and boost engagement.
+        </p>
+      </div>
+    </div>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Jigme Namgyel</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <p class="footer__copy">&#169; Jigme Namgyel. All rights reserved</p>
+    </footer>
+  </body>
+</html>

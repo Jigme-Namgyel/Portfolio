@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Use the latest EmailJS SDK -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+    <title>Jigme's Portfolio</title>
+  </head>
+
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav">
+        <div>
+          <img class="logo" src="assets/img/logo.png" alt="" />
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <br />
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi!<br />I am <span class="home__title-color">Jigme Namgyel</span
+            ><br />
+            <span class="home__subtitle">UI/UX Designer</span>
+          </h1>
+          <a href="#contact" class="button">Contact</a>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <p class="intro-text">Who am I?</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about__container">
+          <div class="about__img">
+            <img src="assets/img/me.png" alt="Jigme Namgyel" />
+          </div>
+
+          <div class="about__content">
+            <h2 class="about__subtitle">
+              Full-Stack Developer & UX Enthusiast
+            </h2>
+            <p class="about__text">
+              A passionate full-stack developer and UX design enthusiast,
+              currently pursuing a Bachelor's in Computer Science at GCIT. I
+              specialize in creating intuitive, user-friendly web experiences
+              through both front-end and back-end development. My goal is to
+              build scalable and impactful solutions that bridge technology and
+              user experience.
+            </p>
+
+            <h2 class="about__subtitle">Driven by Purpose</h2>
+            <p class="about__text">
+              Beyond code, I'm deeply committed to social service and personal
+              growth. I bring dedication, precision, and purpose to every
+              project and community effort I’m part of.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- services -->
+
+      <section class="services">
+        <br><br><br>
+        <p class="intro-text">What I Do ?</p>
+        <h2 class="section-title">Service</h2>
+        <div class="service-cards">
+          <div class="card">
+            <div class="card-content">
+            <img
+              src="https://img.icons8.com/ios/100/design.png"
+              alt="UI/UX Design"
+            />
+            <h2>UI/UX DESIGN</h2>
+            </div>
+            <p class="card-detail">
+              Effective UI/UX design enhances user satisfaction and engagement,
+              making it vital for successful digital products.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-content">
+            <img
+              src="https://img.icons8.com/ios/100/laptop-coding.png"
+              alt="Web Developing"
+            />
+            <h2>WEB DEVELOPING</h2>
+            </div>
+            <p class="card-detail">
+              Building fast, responsive, and accessible websites using modern
+              technologies tailored to user needs.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-content">
+            <img
+              src="https://img.icons8.com/ios/100/maintenance.png"
+              alt="App Developing"
+            />
+            <h2>APP DEVELOPING</h2>
+            </div>
+            <p class="card-detail">
+              Designing and developing mobile and desktop applications for
+              smooth user experiences and functionality.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-content">
+            <img
+              src="https://img.icons8.com/ios/100/combo-chart.png"
+              alt="Data Visualization"
+            />
+            <h2>DATA VISUALIZATION</h2>
+          </div>
+            <p class="card-detail">
+              Transforming data into engaging visual formats to support analysis
+              and strategic decisions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section class="project-content" id="projects">
+        <div class="container">
+          <p class="intro-text">What I Did ?</p>
+        <h2 class="section-title">Portfolio</h2>
+          <div class="projects">
+            <!-- Plant Shop Mobile App -->
+            <div class="project">
+              <img
+                src="assets/img/Mobile.png"
+                alt="Plant Shop Mobile App Cover"
+                class="project-cover"
+              />
+              <h5>Plant Shop App</h5>
+              <p class="project-category">Category: Mobile App</p>
+              <div class="overlay">
+                <a href="assets/html/app.html" class="project-link"
+                  >View Project</a
+                >
+              </div>
+            </div>
+
+            <!-- Plant Shop Website -->
+            <div class="project">
+              <img
+                src="assets/img/web.png"
+                alt="Plant Shop Website Cover"
+                class="project-cover"
+              />
+              <h5>Shoe Shop Website</h5>
+              <p class="project-category">Category: Web Application</p>
+              <div class="overlay">
+                <a href="assets/html/website.html" class="project-link"
+                  >View Project</a
+                >
+              </div>
+            </div>
+
+            <!-- E-commerce App and Website -->
+            <div class="project">
+              <img
+                src="assets/img/web2.png"
+                alt="E-commerce App and Website Cover"
+                class="project-cover"
+              />
+              <h5>E-commerce Website</h5>
+              <p class="project-category">Category: Responsive Web Application</p>
+              <div class="overlay">
+                <a href="assets/html/ecommerce.html" class="project-link"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact__container bd-grid">
+          <form id="contactForm" class="contact__form">
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              class="contact__input"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              class="contact__input"
+              required
+            />
+            <textarea
+              id="message"
+              rows="4"
+              placeholder="Message"
+              class="contact__input"
+              required
+            ></textarea>
+            <button type="submit" class="contact__button button">Send</button>
+            <p id="formMessage" class="hidden"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Jigme Namgyel</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <p class="footer__copy">&#169;Jigme Namgyel. All rights reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <!--===== EMAILJS AND MAIN JS =====-->
+
+    <script>
+      // Initialize EmailJS
+      emailjs.init("QS_NWjWgBNFseO1eP");
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .getElementById("contactForm")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            // Get form data
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+
+            // Send email with EmailJS
+            emailjs
+              .send("service_y0k733j", "template_zk0gmkk", {
+                from_name: name,
+                from_email: email,
+                message: message,
+              })
+              .then(
+                (response) => {
+                  console.log("Success!", response.status, response.text);
+                  const messageElem = document.getElementById("formMessage");
+                  messageElem.innerText = "Message sent successfully!";
+                  messageElem.classList.remove("hidden", "error");
+                  messageElem.classList.add("success");
+                  document.getElementById("contactForm").reset();
+                  setTimeout(() => messageElem.classList.add("hidden"), 5000);
+                },
+                (error) => {
+                  console.log("Failed to send email. Error:", error);
+                  const messageElem = document.getElementById("formMessage");
+                  messageElem.innerText =
+                    "Failed to send message. Please try again.";
+                  messageElem.classList.remove("hidden", "success");
+                  messageElem.classList.add("error");
+                  setTimeout(() => messageElem.classList.add("hidden"), 5000);
+                }
+              );
+          });
+      });
+    </script>
+  </body>
+</html>
