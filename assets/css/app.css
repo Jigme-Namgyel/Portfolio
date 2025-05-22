@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   color: rgb(14, 1, 1);
   background-color: rgb(255, 255, 255);
@@ -14,7 +15,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: var(--z-fixed);
+  z-index: 999;
   background-color: black;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
@@ -43,18 +44,20 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 40px;
-  max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 70px;
+  padding-right: 70px;
   padding-bottom: 50px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
 }
 
 .project-image {
   flex: 1;
-  min-width: 600px;
+  width: 30%; /* lower this */
   height: 70vh;
   padding-top: 80px;
+  padding-left: 6%;
 }
 
 .project-image img {
@@ -65,8 +68,9 @@ body {
 }
 
 .project-details {
-  flex: 2;
-  min-width: 300px;
+  flex: 1.5;
+  width: 50%; 
+  padding-right: 6%;
 }
 
 .project-details h1 {
@@ -97,6 +101,23 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(106, 13, 173, 0.1);
 }
+
+@media (max-width: 768px) {
+  .project-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .project-image, .project-details {
+    min-width: 100%;
+  }
+
+  .project-image {
+    padding-top: 0;
+    height: auto;
+  }
+}
+
 /* pain points */
 .painpoint-section {
   padding: 40px;
